@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+$args = $argv;
+
+array_shift($args);
+array_shift($args);
+
+echo implode(' ', $args) . PHP_EOL;
